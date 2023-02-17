@@ -1,0 +1,9 @@
+hoyolab_uid,int
+hoyolab_nickname,str
+hoyolab_gender,int
+hoyolab_level,int
+hoyolab_certification,int
+hoyolab_certification_description,str
+hoyolab_certification_type,int
+status,str
+uid,int
