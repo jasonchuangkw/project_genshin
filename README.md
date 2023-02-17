@@ -1,2 +1,3 @@
-# project_genshin
+# Applied Clustering to Genshin Impact Accounts
  
+## Problem Statement
