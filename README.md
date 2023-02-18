@@ -14,13 +14,13 @@ Gaming companies potentially have a lot of user data that can help them to under
 
 ##### 1. About the game
 
-Genshin Impact is an anime-style action role-playing game developed and published by MiHoYo (now named as HoyoVerse). It was released for Android, iOS, PlayStation 4, and Windows in 2020, on PlayStation 5 in 2021. Now in its third year of running, it has already earned earned $4 billion [Sportskeeda Article](https://www.sportskeeda.com/esports/news-genshin-impact-among-successful-mobile-games-ever-earned-4-billion-2023#:~:text=According%20to%20Sensor%20Tower's%20latest,%241.4%20billion%20came%20from%20ChinaGenshin)
+Genshin Impact is an anime-style action role-playing game developed and published by MiHoYo (now named as HoyoVerse). It was released for Android, iOS, PlayStation 4, and Windows in 2020, on PlayStation 5 in 2021. Now in its third year of running, it has already earned earned $4 billion [(Source: Sportskeeda Article)](https://www.sportskeeda.com/esports/news-genshin-impact-among-successful-mobile-games-ever-earned-4-billion-2023#:~:text=According%20to%20Sensor%20Tower's%20latest,%241.4%20billion%20came%20from%20ChinaGenshin)
 
 ##### 2. Profile of Gamers
 
 #### Data Source
 
-This project made used of genshin.py available from https://pypi.org/project/genshin A selection of User IDs were obtained through a selected Genshin Discord channels which players seek help or help others. Using the User IDs, we pulled available public information from Hoyolab. For Confidentiality, the final data does not cotain any User ID.
+This project made used of [genshin.py](https://pypi.org/project/genshin) to obtain the data. A selection of User IDs were obtained through a selected Genshin Discord channels which players seek help or help others. Using the User IDs, we pulled available public information from Hoyolab. For Confidentiality, the final data does not cotain any User ID.
 
 #### Analysis
 
