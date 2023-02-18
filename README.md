@@ -18,20 +18,29 @@ Genshin Impact is an anime-style action role-playing game developed and publishe
 
 ##### 2. Other Public Information on Players' Profile
 
-It is interesting to note that the profile of Genshin Impact players is not limited to a young audience. According to an article by udonis dated 9 Feb 2023, 27% of players are under 25, while the average age is 35. There might be a possibility that the game account of a young player might be registered through their parents' mobile account, therefore the average age of gamers might be younger. From the same source, it also stated that 
+It is interesting to note that the profile of Genshin Impact players is not limited to a young audience. According to an article by udonis dated 9 Feb 2023, 27% of players are under 25, while the average age is 35. There might be a possibility that the game account of a young player might be registered through their parents' mobile account. From the same source, it also stated that 
 - 30% of players only play once a day, 14% do it twice, and 13% play at least 9-14 times a day
 - 7% of players play an average of 3-10 minutes per session, while 26% play for at least 10-30 minutes and 23% playing between 1 and 10 hours per day
 [(Source: udonis)](https://www.blog.udonis.co/mobile-marketing/mobile-games/genshin-impact-advertising#:~:text=Genshin%20Impact%20Demographics&text=The%20gender%20distribution%20is%20quite,the%20average%20age%20is%2035) 
 
 #### Data Source and Sampling
 
-HoYoLAB is the gaming community forum for HoYoverse games which registered users can choose to make a selection of their game data public. To obtain these public data, we made use of [genshin.py](https://pypi.org/project/genshin), which was developed by Genshin Impact fans. A successful data collection would involved two steps - (i) the player is a registered user in HoyLAB and (ii) has made the game data public. A sample of User IDs were obtained through popular Discord servers for Genshin Impact players where players can help other players in the game for the month of January 2023. For Confidentiality, the final data does not contain any User ID. The final sample contains public data from Asia, North America (NA) and Europe (EU) players. Using the one-way Anova test, we did not identify significant difference in the variables between servers, therefore the data are pulled together for the analysis.
+HoYoLAB is the gaming community forum for HoYoverse games which registered users can make a selection of their player data public. To obtain these public data, we made use of [genshin.py](https://pypi.org/project/genshin), which was developed by Genshin Impact fans. A successful data collection has two hurdles - (i) the player is a registered user in HoyLAB and (ii) has made the player data public. We have attempted to use random number generation to get player data but the success rate is very low (i.ei. <10%). We ended up looking into chat channels in popular Discord servers where  
+Genshin Impact players can seek help from other players for in game challenges. With this, we obtained xxxx number of User ID for the month of January 2023.
+
+Using the Discord Sample, we collected XXXX data over a period from January to mid-Feburary, limiting to players from Asia, North America (NA) and Europe (EU) servers only. The success rate is about 14-16% by server. Using one-way Anova test, we did not observe significant difference in the variables by servers.
+
+For confidentiality, the final data does not contain any User ID.
 
 #### Analysis
 
 Since the fields in the data are numerical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good resul, therefore the final model made use of K-Means clustering using a 4-cluster solution.
 
 #### Summary of Findings
+
+#### Limitation of Study
+
+We attempted to use random number generation 
 
 
 #### Conclusions and Recommendations
