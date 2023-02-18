@@ -26,20 +26,25 @@ It is interesting to note that the profile of Genshin Impact players is not limi
 
 #### Data Source and Sampling
 
-HoYoLAB is the gaming community forum for HoYoverse games which registered users can make a selection of their player data public. To obtain these public data, we made use of [genshin.py](https://pypi.org/project/genshin), which was developed by Genshin Impact fans. A successful data collection has two hurdles - (i) the player is a registered user in HoyLAB and (ii) has made the player data public. We have attempted to use random number generation to get player data but the success rate is very low (i.ei. <10%). We ended up looking into chat channels in popular Discord servers where  
-Genshin Impact players can seek help from other players for in game challenges. With this, we obtained xxxx number of User ID for the month of January 2023.
+HoYoLAB is the gaming community forum for HoYoverse games which registered users can make a selection of their user data public. To obtain these user data, we made use of [genshin.py](https://pypi.org/project/genshin), which was developed by Genshin Impact fans. A successful retrieval involved crossing two hurdles - (i) the player is a registered user in HoyLAB and (ii) has made the player data public. We have attempted to use random number generation to get user data but the success rate is very low (i.ei. <5%). We ended up looking into chat channels in popular Discord servers where  
+players can seek help from other players for game challenges. With this, we obtained a sample of xxxx User ID for the month of January 2023. The User ID collected is limited to players from Asia, North America (NA) and Europe (EU) servers.
 
-Using the Discord Sample, we collected XXXX data over a period from January to mid-Feburary, limiting to players from Asia, North America (NA) and Europe (EU) servers only. The success rate is about 14-16% by server. Using one-way Anova test, we did not observe significant difference in the variables by servers.
+Parsing the Discord Sample of User ID into genshin.py, we collected XXXX data over a period from January to mid-Feburary with a success rate of 14-16% by server. Using one-way Anova test, we did not observe any significant difference in the user data by servers.
 
 For confidentiality, the final data does not contain any User ID.
 
-### Analysis
+### Exploratory Data Analysis
+
+
+### Applied Clustering
 
 Since the fields in the data are numerical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good resul, therefore the final model made use of K-Means clustering using a 4-cluster solution.
 
 ### Summary of Findings
 
 ### Limitation of Study
+
+On one hand, starting with the Discord Sample would ensure that we are gathering data from players who are currently active in the game, it is biased towards players who needs help or would like to help others. The low success rate adds further biaseness to the sample as there might be difference between players who made their data public and those who did not. While the resultant clusters seems logical and relatable, we are not confident that the sample is representative of Genshin Impact players, therefore the stated cluster size should be taken as indicative.
 
 We attempted to use random number generation 
 
