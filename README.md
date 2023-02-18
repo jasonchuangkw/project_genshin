@@ -1,10 +1,16 @@
 ### Applied Clustering to Genshin Impact Accounts
 
+#### Executive Summary
+
+TBA
+
 #### Problem Statement
 
 Determine what are the different archetypes based on available game data that could help the gamers know more about themselves and about the community. Where possible, the findings could provide some suggests or tips to gamers belonging to certain archetypes.
 
 #### Background
+
+Gaming companies potentially have a lot of user data that can help them to understand their gamers better. One way is to adopt the segmentation approach by identify different archetypes, from which customised strategies can be targetted to each archetype. For games that are based on free to play concept with ability to spend for in-game assets, it is quite typical to group gamers according to their profitability. Games which have been around for a longer time might look at new gamers, lapsed gamers and existing active gamers. This project aims to create a segmentation from the gamers' perspective, so that it can help them to understand more about themselves and know the commuunity.
 
 ##### 1. About the game
 
