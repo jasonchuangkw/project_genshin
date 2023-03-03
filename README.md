@@ -1,4 +1,4 @@
-## Identify Archetypes among Genshin Impact Players
+## Identify Archetypes among Genshin Impact players
 
 ### Executive Summary
 
