@@ -39,7 +39,7 @@ TBA
 _______
 ### Applied Clustering
 
-Since the fields in the data are numerical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good resul, therefore the final model made use of K-Means clustering using a 4-cluster solution.
+Since the fields in the data are numerical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the final model made use of K-Means clustering using a 4-cluster solution.
 _______
 ### Summary of Findings
 _______
