@@ -7,7 +7,7 @@ Using publicly avaiable game data among a sample of Genshin Impact players, we o
 _______
 ### Problem Statement
 
-Determine what are the different archetypes using publicly available game data with the aim to help Genshin Impact players know more about themselves and the community. Where possible, the findings could provide some suggestions or tips to gthe players based on the archetype they belong to.
+Determine what are the different archetypes using publicly available game data with the aim to help Genshin Impact players know more about themselves and the community. Where possible, the findings could provide some suggestions or tips to the players based on the archetype they belong to.
 _______
 ### Background
 
