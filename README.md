@@ -31,7 +31,7 @@ HoYoLAB is the gaming community forum for HoYoverse games which registered users
 
 With this, we obtained a sample of 1,203 user data with a success rate of about 14-16% per server (i.e. Asia, NA and EU). we did not observe any significant difference in the user data by servers using one-way Anova test, therefore we decided to put the data together for the analysis. 
 
-For confidentiality, the UID in the data is replaced by a running ordered index so that the users arede identified.
+For confidentiality, the UID in the data is replaced by a running ordered index so that the users are de-identified.
 _______
 ### Exploratory Data Analysis
 TBA
