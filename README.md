@@ -56,6 +56,12 @@ Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
 <img src="/graphics/exhibit_5.jpg" width=50% height=50%></img>
 
+Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
+<img src="/graphics/exhibit_6.jpg" width=50% height=50%></img>
+
+Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
+<img src="/graphics/exhibit_7.jpg" width=50% height=50%></img>
+
 For the complete list of variables, please refer to the Appendix below.
 _______
 ### Meet the Archetypes - Freshman, Sophomore, Junior and Senior
@@ -65,7 +71,7 @@ As we do not have categorical data in our dataset, therefore we could use one of
 We examined the values for each variable by archetypes and the differences are all statistically significant. In Exhibit 6, we observe that the archetypes tend to land comfortably in fairly distinctive ranges. Although some outliers can be observed from Freshman, we felt that the overall trend is evident.
 
 Exhibit 6: Archetypes are failry distinctive based on Active Days<br>
-<img src="/graphics/exhibit_6.jpg" width=50% height=50%></img>
+<img src="/graphics/exhibit_8.jpg" width=50% height=50%></img>
 
 The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix below.
 
