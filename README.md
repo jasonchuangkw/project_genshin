@@ -97,6 +97,7 @@ The table below shows the inter-quatile range of the varirables according to eac
 
 Note:<br>
 The abyss score is calculated based on the highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))  
+HoyoLab limits the showcase of maximum of 8 characters and 8 weapons, therefore the maximum no. of constellations and refinements are 48 and 40 respectively.
 _______
 ### Limitation of Study
 
