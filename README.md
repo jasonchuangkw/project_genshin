@@ -37,7 +37,7 @@ _______
 
 |Data Fields          | Description                                                                                                 |
 |---------------------|-------------------------------------------------------------------------------------------------------------|
-|days_active          | The no. of game achievements (Current Game Max  > 860*                                                      |
+|days_active          | The no. of game achievements (Current Game Max  > 860[^1]                                                     |
 |level                | The current adventure rank level of the player (Current Game Max = 60)                                      |
 |achievements         | The no. of game achievements (Current Game Max  = 890)                                                      |
 |characters           | The no. of characters  the player has Current Game Max  = 63)                                               |
@@ -54,16 +54,17 @@ _______
 |remarkable_chests    | Total no. of remakable chests opened                                                                        |
 |unlocked_waypoints   | Total no. of unlocked waypoints                                                                             |
 |unlocked_domains     | Total no. of unlocked domains                                                                               |
-|teapot_level**       | Level of the Serenitea Pot(Current Game Max = 10)                                                           |
+|teapot_level[^2]     | Level of the Serenitea Pot(Current Game Max = 10)                                                           |
 |teapot_visitors      | Total no. of visitors received in Serenitea Pot                                                             |
 |teapot_comfort       | The highest comfort score of the Sernitea Pot among the available realms                                    |
 |teapot_items         | Total no. of items made in Serenitea Pot                                                                    |
 |teapot_realm         | Total no. of realm unlocked in Serenitea Pot (Current Game Max = 5)                                         |
 |abyss_score1         | The converted score based on th highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))         |
-|abyss_score2**       | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
+|abyss_score2[^2]     | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
 
-*as we are unable to collect all the data at the same time, therefore the maximum changes on the daily basis.
-** variable not used in the clustring analysis
+Note:
+[^1] as we are unable to collect all the data at the same time, therefore the maximum changes on the daily basis.)
+[^2] variable not used in the clustring analysis
 _______
 ### Applied Clustering
 
