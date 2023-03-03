@@ -2,12 +2,12 @@
 
 ### Executive Summary
 
-TBA
+Using publicly avaiable game data among a sample of Genshin Impact players, we obtained a four distinctive archetypes which their differences were largely driven by the number of active days in the game. From other variables, such as number of in-game achievements, number of characters and level of exploration, we were able to identify different levels of intensity for various in-game activities. With that, we named the four archetypes after the student classification names for the four undergraduate years - Freshman, Sophomore, Junior and Senior. For players who are able to relate to the archetypes, we have put forth some recommendations for them.
 
 _______
 ### Problem Statement
 
-Determine what are the different archetypes using publicly available game data with the aim to help Genshin Impact players know more about themselves and the community. Where possible, the findings could provide some suggestions or tips to gthe players based on the archetype they belong to.
+Determine what are the different archetypes using publicly available game data with the aim to help Genshin Impact players know more about themselves and the community. Where possible, the findings could provide some suggestions or tips to the players based on the archetype they belong to.
 _______
 ### Background
 
@@ -35,34 +35,44 @@ For confidentiality, the UID in the data is replaced by a running ordered index 
 _______
 ### Exploratory Data Analysis
 
-From our exploratory data analysis, we picked up the interesting findings:
+From our exploratory data analysis, we picked up some interesting findings:
 
-If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons. We did not achieved a good spread around 600-700 range while quite a lot of players have been playing over 800 days. These 800+days players must have supported the game since its start (Exhibit 1). 
+If there would be one variable that seems to drive the prediction of other variable, then it would be the number of active days playing the game. The assumption is that if one plays the game more, the more likely it is to explore the maps, acquire more game characters and weapons. Exhibit 1 shows the distribution of Active Days. Although we did not achieved a good spread around 600-700 range, it did not have a significant impact on our further analysis using clustering analysis. Quite a lot of players have been playing over 800 days which means that they must have supported the game since launched. 
 
 Exhibit 1: Distribution of Players by no. of Active Days<br>
 <img src="/graphics/exhibit_1.jpg" width=50% height=50%></img>
 
-Genshin Impact players can relate that its requires more and more experience points to level up Adventure Rank, therefore it is a non-linear relationship (e.g. expoential). The fastest lvl 60 player from the data is about 500 days, which is about 1.5 years (Exhibit 2). 
+The experience points needed to level up the Adventure Rank is non-linear (i.e. expoential), therefore it gets harder and harder to level up. The plotted trend line confirms this relationship. The fastest lvl 60 player from the data is about 500 days, which is about 1.5 years (Exhibit 2). 
 
 Exhibit 2: Trend between Adventure Rank Level and no. of Active Days<br>
 <img src="/graphics/exhibit_2.jpg" width=50% height=50%></img>
 
+A similar trend is observed for in-game Achievements and notably, the spread is wide. In less than a year, there are few players who managed to complete more than 700 achievements (Exhibit 3).
+
 Exhibit 3: Trend between No. of Achievements and no. of Active Days<br>
 <img src="/graphics/exhibit_3.jpg" width=50% height=50%></img>
+
+While it is likely that a player will have more characters with more Active Days, having more characters than expected in relationship with the number of Active Days would indicate that a player might have invested resources into the game. From Exhibit 4, we could observe a fairly wide spread away from the trend line.
 
 Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 <img src="/graphics/exhibit_4.jpg" width=50% height=50%></img>
 
+As HoyoLab limits the number of characters showcase to 8, therefore sets the limit on the number of maximums 5-Star characters, This may not be the total number of 5-Star characters the player has. From this limitation, the maximum number of constellations in the showcase is 48. From Exhibit 5, we could see there are few players who have much more constellations than expected.
+
 Exhibit 5: Trend between No. of Constellations among 5-Star Characters and no. of Active Days<br>
 <img src="/graphics/exhibit_5.jpg" width=50% height=50%></img>
+
+While there seems to be participation in setting up the Teapot in the game, a lot of players seems to stop at the 20,000 point mark, therefore reaching the minimal level to obtain a maximum reward in the game. This is an indication that a lot of players participate in the Teapot decoration just for the rewards and are less interested to go beyond. 
 
 Exhibit 6: Trend between Teapot Comfort Score and no. of Active Days<br>
 <img src="/graphics/exhibit_6.jpg" width=50% height=50%></img>
 
+The Spiral Abyss Score is calculated based on the highest floor-chamber reached by the player (Max = 36 (12 floor with up to 3 chambers)). From Exhibit 7, we can observe that a fair number of players do not participate in the Spiral Abyss. Among those who reached the high floors (9 - 12) therefore with a score of at least 24, shows a good spread.
+
 Exhibit 7: Trend between Spiral Abyss and no. of Active Days<br>
 <img src="/graphics/exhibit_7.jpg" width=50% height=50%></img>
 
-For the complete list of variables, please refer to the Appendix below.
+For the complete analysis, please refer to eda_and_analysis.jpynb found in the code folder.
 _______
 ### Meet the Archetypes - Freshman, Sophomore, Junior and Senior
 
@@ -102,8 +112,10 @@ The table below shows the inter-quatile range of the varirables according to eac
 |abyss score                           |   00-24   |    0-32   |   24-36   |   24-36   |
 
 Note:<br>
-The abyss score is calculated based on the highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))  
+The Spiral Abyss Score is calculated based on the highest floor-chamber reached by the player (Max = 36 (12 floor with up to 3 chambers))  
 HoyoLab limits the showcase of maximum of 8 characters and 8 weapons, therefore the maximum no. of constellations and refinements are 48 and 40 respectively.
+
+For the complete analysis, please refer to eda_and_analysis.jpynb found in the code folder.
 _______
 ### Limitation of Study
 
@@ -119,15 +131,15 @@ Anecdotally, we know that it is not uncommon for gamers to have more than one ga
 
 While Genshin Impact is not a complicated game, there are many useful tips that freshmen can pick up through social media and friends. Many started out watching Youtube or Twitch streamers or read online articles to pick up useful tips. One thing about Genshin Impact is that you could play this game entirely alone, therefore there isn't much pressure to know more people in order to progress in game. However, there are quite a few challenging content that might be easier if you pair up with experience gamers.
 
-#### 2. Sophomore - becoming more sophisticated 
+#### 2. Sophomore - becoming better at the game
 
 You probably covered quite a lot of the easy content and probably has to face the tougher ones. This is the stage when you start to develop deeper understanding of the game mechanism, such as choosing artifacts and planning team composition. There is a lot of useful information resources that can help you but don't be shy to ask people for advice. Sometimes, it is better to learn from friends than online resources. In some discord servers, there might be specific channel that provide help to gamers. If you have not ventured into Spiral Abyss, it may be worthwhile to try it out. It takes a while to move up the floors, so don't be disappointed if you cannot clear everything in one go. 
 
 #### 3. Juniors - move at your own pace
 
-The distinction between Juniors and Seniors, beside number of active days, Seniors just have everything more and done more than Juniors. Perhaps you have come to terms with some of the achievements which are rather painful (e.g. fishing and growing crops in the teapot), you have decided to finish it or give it up totally. There is proably no hurry to rush them through unless you really want those free primogems. You probably want to take your time to venture the remainding content, otherwise, you might end up like the Seniors with very little left to do.
+TThe distinction between Juniors and Seniors, beside number of active days, Seniors just have everything more and done more than Juniors. Perhaps you have come to terms with some of the achievements which are rather painful (e.g. fishing and growing crops in the teapot), you have decided to finish it or give it up totally. There is probably no hurry to rush them through unless you really want those free primogems. You probably want to take your time to venture the remaining content, otherwise, you might end up like the Seniors with very little left to do.
 
-#### 4. Seniors - finding meaning to continue
+#### 4. Seniors - finding meaning to continue - what's next?
 
 Senior have been supporting the game and have played out most, if not all the content that is available. They are up to date with the latest content and hungry for me. Probably at some time, or already so, you might stop for a while or slow down, or perhaps find that friends whom have been playing the game no longer do so. There is probably a time when you might move on with the game and do something else. The main point is that you have enjoyed the game and have many happy moments, and if you continue to do so, may you have many more happy memories in the future. When there is free time, Seniors are excellent in helping others in challenging content. 
 
