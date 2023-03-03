@@ -34,7 +34,9 @@ With this, we obtained a sample of 1,203 user data with a success rate of about 
 For confidentiality, the UID in the data is replaced by a running ordered index so that the users are de-identified.
 _______
 ### Exploratory Data Analysis
-TBA
+
+| Key Data Fields | Description   |
+| level | The current adventure rank level of the player (Current Game Max = 60)|
 _______
 ### Applied Clustering
 
