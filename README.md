@@ -62,8 +62,32 @@ _______
 
 As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression.
 
-|Variable|Freshman|Sophomore|Junior|Senior|
-|--------|--------|---------|------|------|
+|Variable             |Freshman|Sophomore|Junior|Senior|
+|---------------------|--------|---------|------|------|
+|days_active          |--------|---------|------|------|
+|level                |--------|---------|------|------|
+|achievements         |--------|---------|------|------|
+|characters           |--------|---------|------|------|
+|total_5_characters   |--------|---------|------|------|
+|total_5_constellation|--------|---------|------|------|
+|total_5_weapon       |--------|---------|------|------|
+|total_5_refinement   |--------|---------|------|------|
+|total_explored       |--------|---------|------|------|
+|culi                 |--------|---------|------|------|
+|common_chests        |--------|---------|------|------|
+|exquisite_chests     |--------|---------|------|------|
+|precious_chests      |--------|---------|------|------|
+|luxurious_chests     |--------|---------|------|------|
+|remarkable_chests    |--------|---------|------|------|
+|unlocked_waypoints   |--------|---------|------|------|
+|unlocked_domains     |--------|---------|------|------|
+|teapot_level         |--------|---------|------|------|
+|teapot_visitors      |--------|---------|------|------|
+|teapot_comfort       |--------|---------|------|------|
+|teapot_items         |--------|---------|------|------|
+|teapot_realm         |--------|---------|------|------|
+|abyss_score1         |--------|---------|------|------|
+|abyss_score2         |--------|---------|------|------|
 
 _______
 ### Limitation of Study
