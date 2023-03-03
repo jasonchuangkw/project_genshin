@@ -37,27 +37,37 @@ _______
 
 From our exploratory data analysis, we picked up the interesting findings:
 
-If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons. We did not achieved a good spread around 600-700 range while quite a lot of players have been playing over 800 days. These 800+days players must have supported the game since its start (Exhibit 1). 
+If there would be one variable that seems to drive the prediction of other variable, then it would be the number of active days playing the game. The assumption is that if one plays the game more, the more likely it is to explore the maps, acquire more game characters and weapons. Exhibit 1 shows the distribution of Active Days. Although we did not achieved a good spread around 600-700 range, it did not have a significant impact on our further analysis using clustering analysis. Quite a lot of players have been playing over 800 days which means that they must have supported the game since launched. 
 
 Exhibit 1: Distribution of Players by no. of Active Days<br>
 <img src="/graphics/exhibit_1.jpg" width=50% height=50%></img>
 
-Genshin Impact players can relate that its requires more and more experience points to level up Adventure Rank, therefore it is a non-linear relationship (e.g. expoential). The fastest lvl 60 player from the data is about 500 days, which is about 1.5 years (Exhibit 2). 
+The experience points needed to level up the Adventure Rank is non-linear (i.e. expoential), therefore it gets harder and harder to level up. The plotted trend line confirms this relationship. The fastest lvl 60 player from the data is about 500 days, which is about 1.5 years (Exhibit 2). 
 
 Exhibit 2: Trend between Adventure Rank Level and no. of Active Days<br>
 <img src="/graphics/exhibit_2.jpg" width=50% height=50%></img>
 
+A similar trend is observed for in-game Achievements and notably, the spread is wide. In less than a year, there are few players who managed to complete more than 700 achievements (Exhibit 3).
+
 Exhibit 3: Trend between No. of Achievements and no. of Active Days<br>
 <img src="/graphics/exhibit_3.jpg" width=50% height=50%></img>
+
+While it is likely that a player will have more characters with more Active Days, having more characters than expected in relationship with the number of Active Days would indicate that a player might have invested resources into the game. From Exhibit 4, we could observe a fairly wide spread away from the trend line.
 
 Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 <img src="/graphics/exhibit_4.jpg" width=50% height=50%></img>
 
+As HoyoLab limits the number of characters showcase to 8, therefore sets the limit on the number of maximums 5-Star characters, This may not be the total number of 5-Star characters the player has. From this limitation, the maximum number of constellations in the showcase is 48. From Exhibit 5, we could see there are few players who have much more constellations than expected.
+
 Exhibit 5: Trend between No. of Constellations among 5-Star Characters and no. of Active Days<br>
 <img src="/graphics/exhibit_5.jpg" width=50% height=50%></img>
 
+While there seems to be participation in setting up the Teapot in the game, a lot of players seems to stop at the 20,000 point mark, therefore reaching the minimal level to obtain a maximum reward in the game. This is an indication that a lot of players participate in the Teapot decoration just for the rewards and are less interested to go beyond. 
+
 Exhibit 6: Trend between Teapot Comfort Score and no. of Active Days<br>
 <img src="/graphics/exhibit_6.jpg" width=50% height=50%></img>
+
+The Spiral Abyss Score is calculated based on the highest floor-chamber reached by the player (Max = 36 (12 floor with up to 3 chambers)). From Exhibit 7, we can observe that a fair number of players do not participate in the Spiral Abyss. Among those who reached the high floors (9 - 12) therefore with a score of at least 24, shows a good spread.
 
 Exhibit 7: Trend between Spiral Abyss and no. of Active Days<br>
 <img src="/graphics/exhibit_7.jpg" width=50% height=50%></img>
@@ -102,7 +112,7 @@ The table below shows the inter-quatile range of the varirables according to eac
 |abyss score                           |   00-24   |    0-32   |   24-36   |   24-36   |
 
 Note:<br>
-The abyss score is calculated based on the highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))  
+The Spiral Abyss Score is calculated based on the highest floor-chamber reached by the player (Max = 36 (12 floor with up to 3 chambers))  
 HoyoLab limits the showcase of maximum of 8 characters and 8 weapons, therefore the maximum no. of constellations and refinements are 48 and 40 respectively.
 
 For the complete analysis, please refer to eda_and_analysis.jpynb found in the code folder.
