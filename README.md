@@ -88,7 +88,7 @@ As we have avoided categorical data, therefore we could use one of the two popul
 |teapot_realm         |    1-1    |    2-4    |    4-5    |    5-5    |
 |abyss_score          |   00-24   |    0-32   |   24-36   |   24-36   |
 
-Note:
+Note:<br>
 The abyss score is calculated based on the highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))  
 _______
 ### Limitation of Study
@@ -150,5 +150,5 @@ _______
 |abyss_score1         | The converted score based on th highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))         |
 |abyss_score2         | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
 
-Note:
+Note:<br>
 As we can only collect the data in batches and not all at the same time, noted that active players would have new updated figures almost on a daily basis. teapot_level and abyss_score2 were not used in the clustering as they are closely related to other variables.
