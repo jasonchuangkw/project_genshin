@@ -134,8 +134,9 @@ _______
 | data          | Contains the deidentified data used in this project                                                     |
 | data_setup    | Contains details on the data conversion from pydantic to dataframe                                      |
 | presentatione | Contains the presentation slides for the project                                                        |
+| presentatione | Contains the presentation slides for the project                                                        |
 
-### Data Fields
+### Dsecription of the Data Fields in the Dataset
 |Data Fields          | Description                                                                                             |
 |:--------------------|:--------------------------------------------------------------------------------------------------------|
 |days_active          | no. of active days playing the game (current game max  > 860)                                           |
