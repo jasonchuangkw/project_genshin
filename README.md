@@ -56,13 +56,15 @@ Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
 <img src="/graphics/exhibit_5.jpg" width=50% height=50%></img>
 
-NFor the complete list of variables in the data, please refer to the Appendix below.
+For the complete list of variables in the data, please refer to the Appendix below.
 _______
-### Applied Clustering
+### Introducing the Clusters
 
-As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified.
-_______
-### Summary of Findings
+As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression.
+
+|Variable|Freshman|Sophomore|Junior|Senior|
+|--------|--------|---------|------|------|
+
 _______
 ### Limitation of Study
 
