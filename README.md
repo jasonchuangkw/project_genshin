@@ -64,7 +64,7 @@ As we have avoided categorical data, therefore we could use one of the two popul
 
 
 |Variable             | Freshman  | Sophomore | Junior    | Senior    |
-|---------------------|-----------|-----------|-----------|-----------|
+|---------------------|-----------|:---------:|-----------|-----------|
 |days_active          |  092-258  |  203-495  |  414-586  |  557-840  |
 |level                |   45-55   |   55-58   |   57-60   |   59-60   |
 |achievements         |  240-406  |  394-628  |  628-872  |  750-875  |
