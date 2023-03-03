@@ -37,7 +37,12 @@ _______
 
 If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons. We did not achieved a good spread around 600-700 range while quite a lot of players have been playing over 800 days. These 800+days players must have supported the game since its start. 
 
+Exhibit 1: Distribution of Players by no. of Active Days
 <img src="/graphics/exhibit_1.jpg" width=50% height=50%></img>
+
+Genshin Impact players can relate that its requires more and more experience points to level up Adventure Rank, therefore it is a non-linear relationship (e.g. expoential). The fastest lvl 60 player from the data is about 500 days, which is about 1.5 years. 
+
+Exhibit 2: Trend between Adventure Rank Level and no. of Active Days
 <img src="/graphics/exhibit_2.jpg" width=50% height=50%></img>
 
 |Data Fields          | Description                                                                                                 |
