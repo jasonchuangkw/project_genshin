@@ -137,7 +137,7 @@ You probably covered quite a lot of the easy content and probably has to face th
 
 #### 3. Juniors - move at your own pace
 
-The distinction between Juniors and Seniors, beside number of active days, Seniors just have everything more and done more than Juniors. Perhaps you have come to terms with some of the achievements which are rather painful (e.g. fishing and growing crops in the teapot), you have decided to finish it or give it up totally. There is proably no hurry to rush them through unless you really want those free primogems. You probably want to take your time to venture the remainding content, otherwise, you might end up like the Seniors with very little left to do.
+TThe distinction between Juniors and Seniors, beside number of active days, Seniors just have everything more and done more than Juniors. Perhaps you have come to terms with some of the achievements which are rather painful (e.g. fishing and growing crops in the teapot), you have decided to finish it or give it up totally. There is probably no hurry to rush them through unless you really want those free primogems. You probably want to take your time to venture the remaining content, otherwise, you might end up like the Seniors with very little left to do.
 
 #### 4. Seniors - finding meaning to continue - what's next?
 
