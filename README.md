@@ -104,6 +104,8 @@ On one hand, starting with the Discord Sample would ensure that we are gathering
 _______
 ### Conclusions and Recommendations
 
+Based on the k-Means clustering, we obtained four distinctive archetypes that is largely based on the level of involvement in the game. The number of active days is a key variable that helps to make this definition while the rest of the variables provide an indication on typical intensity of various activiites. The Serenitea pot and Spiral Abyss are two side but they appeared to be more distinctive between the archetypes.
+
 Anecdotally, we know that it is not uncommon for gamers to have more than one game account and the secondary accounts may fit into a different archetypes. While making our recommendations for each archtypes, we ocused on gamers with a single account.
 
 #### 1. Freshman - you need not be alone
