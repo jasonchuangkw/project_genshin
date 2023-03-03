@@ -62,7 +62,7 @@ Exhibit 6: Trend between Teapot Comfort Score and no. of Active Days<br>
 Exhibit 7: Trend between Spiral Abyss and no. of Active Days<br>
 <img src="/graphics/exhibit_7.jpg" width=50% height=50%></img>
 
-For the complete list of variables, please refer to the Appendix below.
+For the complete analysis, please refer to eda_and_analysis.jpynb found in the code folder.
 _______
 ### Meet the Archetypes - Freshman, Sophomore, Junior and Senior
 
@@ -104,6 +104,8 @@ The table below shows the inter-quatile range of the varirables according to eac
 Note:<br>
 The abyss score is calculated based on the highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))  
 HoyoLab limits the showcase of maximum of 8 characters and 8 weapons, therefore the maximum no. of constellations and refinements are 48 and 40 respectively.
+
+For the complete analysis, please refer to eda_and_analysis.jpynb found in the code folder.
 _______
 ### Limitation of Study
 
