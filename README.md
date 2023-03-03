@@ -60,7 +60,7 @@ For the complete list of variables in the data, please refer to the Appendix bel
 _______
 ### The Clusters - Freshman, Sophomore, Junior and Senior
 
-As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression.
+As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression. The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix.
 
 
 |Variable             | Freshman  | Sophomore | Junior    | Senior    |
