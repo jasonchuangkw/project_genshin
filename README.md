@@ -35,6 +35,8 @@ For confidentiality, the UID in the data is replaced by a running ordered index 
 _______
 ### Exploratory Data Analysis
 
+From our exploratory data analysis, we picked up the interesting findings:
+
 If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons. We did not achieved a good spread around 600-700 range while quite a lot of players have been playing over 800 days. These 800+days players must have supported the game since its start. 
 
 Exhibit 1: Distribution of Players by no. of Active Days<br>
@@ -50,6 +52,10 @@ Exhibit 3: Trend between No. of Achievements and no. of Active Days<br>
 
 Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 <img src="/graphics/exhibit_4.jpg" width=50% height=50%></img>
+
+Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
+<img src="/graphics/exhibit_5.jpg" width=50% height=50%></img>
+
 
 |Data Fields          | Description                                                                                                 |
 |---------------------|-------------------------------------------------------------------------------------------------------------|
