@@ -35,16 +35,28 @@ For confidentiality, the UID in the data is replaced by a running ordered index 
 _______
 ### Exploratory Data Analysis
 
-The current game maxiumum value of each field (at this point of the project) is provided.
-
-| Key Data Fields     | Description                                                                                                 |
+|Data Fields          | Description                                                                                                 |
 |---------------------|-------------------------------------------------------------------------------------------------------------|
-| days_active         | The no. of game achievements (Current Game Max  > 860*                                                      |
-| level               | The current adventure rank level of the player (Current Game Max = 60)                                      |
-| achievements        | The no. of game achievements (Current Game Max  = 890)                                                      |
-| characters          | The no. of characters  the player has Current Game Max  = 63)                                               |
+|days_active          | The no. of game achievements (Current Game Max  > 860*                                                      |
+|level                | The current adventure rank level of the player (Current Game Max = 60)                                      |
+|achievements         | The no. of game achievements (Current Game Max  = 890)                                                      |
+|characters           | The no. of characters  the player has Current Game Max  = 63)                                               |
 |total_5_characters   | The no. of 5-star characters showcased in the public profile (Data limitation Max = 8)                      |
-|total_5_constellation| The no. of constellations among 5-star characters showcased in the public profile (Data Limitation Max = 48)|
+|total_5_constellation| The no. of constellations among 5-star characters showcased in the public profile (Data limitation Max = 48)|
+|total_5_weapon       | The no. of 5-star weapons showcased in the public profile (Data limitation Max = 8)                         |
+|total_5_refinement   | The no. of refinement among 5-star weapons showcased in the public profile (Data limitation Max = 40)       |
+|total_explored       | A combined exploration score of all the maps that were available (Current Game Max = 7,000)                 |
+|total_culi           | The total no. of Oculi collected (e.g. Anemoculus) (Current Game Max = 613)                                 |
+|common_chests        | Total no. of common chests opened                                                                           |
+|exquisite_chests     | Total no. of exquisite chests opened                                                                        |
+|precious_chests      | Total no. of precious chests opened                                                                         |
+|luxurious_chests     | Total no. of luxurious chests opened                                                                        |
+|remarkable_chests    | Total no. of remakable chests opened                                                                        |
+|unlocked_waypoints   | Total no. of unlocked waypoints                                                                             |
+|unlocked_domains     | Total no. of unlocked domains                                                                               |
+|teapot_level         | Level of the Serenitea Pot(Current Game Max = 10)                                                           |
+|teapot_visitors      | Total no. of visitors received in Serenitea Pot                                                             |
+
 
 *as we are unable to collect all the data at the same time, therefore the maximum changes on the daily basis.
 _______
