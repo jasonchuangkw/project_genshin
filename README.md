@@ -35,9 +35,13 @@ For confidentiality, the UID in the data is replaced by a running ordered index 
 _______
 ### Exploratory Data Analysis
 
+If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons.
+
+![This is an image](/../graphics/exhibit_1.jpg)
+
 |Data Fields          | Description                                                                                                 |
 |---------------------|-------------------------------------------------------------------------------------------------------------|
-|days_active          | The no. of game achievements (Current Game Max  > 860*                                                      |
+|days_active          | The no. of active days playing the game (Current Game Max  > 860)                                           |
 |level                | The current adventure rank level of the player (Current Game Max = 60)                                      |
 |achievements         | The no. of game achievements (Current Game Max  = 890)                                                      |
 |characters           | The no. of characters  the player has Current Game Max  = 63)                                               |
@@ -54,29 +58,26 @@ _______
 |remarkable_chests    | Total no. of remakable chests opened                                                                        |
 |unlocked_waypoints   | Total no. of unlocked waypoints                                                                             |
 |unlocked_domains     | Total no. of unlocked domains                                                                               |
-|teapot_level**       | Level of the Serenitea Pot(Current Game Max = 10)                                                           |
+|teapot_level         | Level of the Serenitea Pot(Current Game Max = 10)                                                           |
 |teapot_visitors      | Total no. of visitors received in Serenitea Pot                                                             |
 |teapot_comfort       | The highest comfort score of the Sernitea Pot among the available realms                                    |
 |teapot_items         | Total no. of items made in Serenitea Pot                                                                    |
 |teapot_realm         | Total no. of realm unlocked in Serenitea Pot (Current Game Max = 5)                                         |
 |abyss_score1         | The converted score based on th highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))         |
-|abyss_score2**       | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
+|abyss_score2         | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
 
-*as we are unable to collect all the data at the same time, therefore the maximum changes on the daily basis.
-** variable not used in the clustring analysis
+Note:
+As we can only collect the data in batches and not all at the same time, noted that active players would have new updated figures almost on a daily basis. teapot_level and abyss_score2 were not used in the clustering as they are closely related to other variables.
 _______
 ### Applied Clustering
 
-We avoided having categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified.
+As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified.
 _______
 ### Summary of Findings
 _______
 ### Limitation of Study
 
 On one hand, starting with the Discord Sample would ensure that we are gathering data from players who are currently active in the game, it is biased towards players who needs help or would like to help others. The low success rate adds further biaseness to the sample as there might be difference between players who made their data public and those who did not. While the resultant clusters seems logical and relatable, we are not confident that the sample is representative of Genshin Impact players, therefore the stated cluster size should be taken as indicative.
-
-We attempted to use random number generation but the success rate is very low, therefore this method was abandoned.
-
 _______
 ### Conclusions and Recommendations
 
