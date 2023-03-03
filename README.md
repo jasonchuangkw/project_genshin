@@ -37,12 +37,12 @@ _______
 
 From our exploratory data analysis, we picked up the interesting findings:
 
-If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons. We did not achieved a good spread around 600-700 range while quite a lot of players have been playing over 800 days. These 800+days players must have supported the game since its start. 
+If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons. We did not achieved a good spread around 600-700 range while quite a lot of players have been playing over 800 days. These 800+days players must have supported the game since its start (Exhibit 1). 
 
 Exhibit 1: Distribution of Players by no. of Active Days<br>
 <img src="/graphics/exhibit_1.jpg" width=50% height=50%></img>
 
-Genshin Impact players can relate that its requires more and more experience points to level up Adventure Rank, therefore it is a non-linear relationship (e.g. expoential). The fastest lvl 60 player from the data is about 500 days, which is about 1.5 years. 
+Genshin Impact players can relate that its requires more and more experience points to level up Adventure Rank, therefore it is a non-linear relationship (e.g. expoential). The fastest lvl 60 player from the data is about 500 days, which is about 1.5 years (Exhibit 2). 
 
 Exhibit 2: Trend between Adventure Rank Level and no. of Active Days<br>
 <img src="/graphics/exhibit_2.jpg" width=50% height=50%></img>
@@ -60,10 +60,11 @@ For the complete list of variables, please refer to the Appendix below.
 _______
 ### The Clusters - Freshman, Sophomore, Junior and Senior
 
-As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression. 
+As we do not have categorical data in our dataset, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression. 
 
+We examined the values for each variable by archetypes and the differences are all statistically significant. In Exhibit 6, we observe that the archetypes tend to land comfortably in fairly distinctive ranges. Although some outliers can be observed from Freshman, we felt that the overall trend is evident.
 
-Exhibit 6<br>
+Exhibit 6: Archetypes are failry distinctive based on Active Days<br>
 <img src="/graphics/exhibit_6.jpg" width=50% height=50%></img>
 
 The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix below.
@@ -102,6 +103,8 @@ _______
 On one hand, starting with the Discord Sample would ensure that we are gathering data from players who are currently active in the game, it is biased towards players who needs help or would like to help others. The low success rate adds further biaseness to the sample as there might be difference between players who made their data public and those who did not. While the resultant clusters seems logical and relatable, we are not confident that the sample is representative of Genshin Impact players, therefore the stated cluster size should be taken as indicative.
 _______
 ### Conclusions and Recommendations
+
+Based on the k-Means clustering, we obtained four distinctive archetypes that is largely based on the level of involvement in the game. The number of active days is a key variable that helps to make this definition while the rest of the variables provide an indication on typical intensity of various activiites. The Serenitea pot and Spiral Abyss are two side but they appeared to be more distinctive between the archetypes.
 
 Anecdotally, we know that it is not uncommon for gamers to have more than one game account and the secondary accounts may fit into a different archetypes. While making our recommendations for each archtypes, we ocused on gamers with a single account.
 
