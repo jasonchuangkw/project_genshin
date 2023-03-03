@@ -58,7 +58,7 @@ Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
 
 For the complete list of variables, please refer to the Appendix below.
 _______
-### The Clusters - Freshman, Sophomore, Junior and Senior
+### Meet the Archetypes - Freshman, Sophomore, Junior and Senior
 
 As we do not have categorical data in our dataset, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression. 
 
