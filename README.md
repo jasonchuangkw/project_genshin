@@ -35,9 +35,9 @@ For confidentiality, the UID in the data is replaced by a running ordered index 
 _______
 ### Exploratory Data Analysis
 
-If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons.
+If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons. We did not achieved a good spread around 600-700 range while quite a lot of players have been playing over 800 days. These 800+days players must have supported the game since its start. 
 
-![This is an image](/graphics/exhibit_1.jpg)
+![Exhibit 1](/graphics/exhibit_1.jpg)
 
 |Data Fields          | Description                                                                                                 |
 |---------------------|-------------------------------------------------------------------------------------------------------------|
