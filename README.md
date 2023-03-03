@@ -81,7 +81,7 @@ The table below shows the inter-quatile range of the varirables according to eac
 |total_5_weapon       |    0-1    |    0-3    |    1-4    |    2-5    | 
 |total_5_refinement   |    0-1    |    0-3    |    1-5    |    2-6    | 
 |total_explored       | 1890-3812 | 3596-6081 | 5781-6850 | 6577-6930 |
-|Oculi                |  168-355  |  332-542  |  492-613  |  562-613  |
+|oculi                |  168-355  |  332-542  |  492-613  |  562-613  |
 |common_chests        |  313-776  | 0732-1637 | 1555-2213 | 2074-2385 |
 |exquisite_chests     |  064-637  | 0582-1108 | 1129-1441 | 1472-1527 |
 |precious_chests      |  097-198  |  183-339  |  330-442  |  411-468  |
