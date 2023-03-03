@@ -70,13 +70,13 @@ Exhibit 6: Archetypes are failry distinctive based on Active Days<br>
 The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix below.
 
 
-|Variable                         | Freshman  | Sophomore | Junior    | Senior    |
-|---------------------------------|:---------:|:---------:|:---------:|:---------:|
-|active days                      |  092-258  |  203-495  |  414-586  |  557-840  |
-|level                            |   45-55   |   55-58   |   57-60   |   59-60   |
-|achievements                     |  240-406  |  394-628  |  628-872  |  750-875  |
-|characters                       |   26-36   |   34-46   |   42-50   |   45-54   |
-|5-star characters                |    2-5    |    3-7    |    6-8    |    7-8    |
+|Variable                              | Freshman  | Sophomore | Junior    | Senior    |
+|--------------------------------------|:---------:|:---------:|:---------:|:---------:|
+|active days                           |  092-258  |  203-495  |  414-586  |  557-840  |
+|level                                 |   45-55   |   55-58   |   57-60   |   59-60   |
+|achievements                          |  240-406  |  394-628  |  628-872  |  750-875  |
+|characters                            |   26-36   |   34-46   |   42-50   |   45-54   |
+|5-star characters                     |    2-5    |    3-7    |    6-8    |    7-8    |
 |constellation among 5-star characters |    0-1    |    0-3    |    1-5    |    1-9    |
 |5-star weapons                        |    0-1    |    0-3    |    1-4    |    2-5    | 
 |refinement among 5-star weapons       |    0-1    |    0-3    |    1-5    |    2-6    | 
@@ -84,16 +84,16 @@ The table below shows the inter-quatile range of the varirables according to eac
 |oculi                                 |  168-355  |  332-542  |  492-613  |  562-613  |
 |common chests                         |  313-776  | 0732-1637 | 1555-2213 | 2074-2385 |
 |exquisite chests                      |  064-637  | 0582-1108 | 1129-1441 | 1472-1527 |
-|precious chests      |  097-198  |  183-339  |  330-442  |  411-468  |
-|luxurious chests     |   38-80   |  073-134  |  127-170  |  157-181  |
-|remarkable chests    |   03-26   |   20-84   |   71-134  |  113-145  |
-|unlocked waypoints   |  181-255  |  231-283  |  264-286  |  282-286  |
-|unlocked domains     |   28-39   |   36-46   |   43-48   |   46-48   |
-|teapot visitors      |    0-2    |    1-9    |    5-26   |   20-64   |
-|teapot comfort score | 2940-5630 |10210-14990|20500-23510|30433-35425|
-|teapot items         |  099-293  |  422-862  | 0841-1721 | 1833-3027 |
-|teapot realm         |    1-1    |    2-4    |    4-5    |    5-5    |
-|abyss score          |   00-24   |    0-32   |   24-36   |   24-36   |
+|precious chests                       |  097-198  |  183-339  |  330-442  |  411-468  |
+|luxurious chests                      |   38-80   |  073-134  |  127-170  |  157-181  |
+|remarkable chests                     |   03-26   |   20-84   |   71-134  |  113-145  |
+|unlocked waypoints                    |  181-255  |  231-283  |  264-286  |  282-286  |
+|unlocked domains                      |   28-39   |   36-46   |   43-48   |   46-48   |
+|teapot visitors                       |    0-2    |    1-9    |    5-26   |   20-64   |
+|teapot comfort score                  | 2940-5630 |10210-14990|20500-23510|30433-35425|
+|teapot items                          |  099-293  |  422-862  | 0841-1721 | 1833-3027 |
+|teapot realm                          |    1-1    |    2-4    |    4-5    |    5-5    |
+|abyss score                           |   00-24   |    0-32   |   24-36   |   24-36   |
 
 Note:<br>
 The abyss score is calculated based on the highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))  
