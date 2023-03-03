@@ -45,10 +45,10 @@ Genshin Impact players can relate that its requires more and more experience poi
 Exhibit 2: Trend between Adventure Rank Level and no. of Active Days<br>
 <img src="/graphics/exhibit_2.jpg" width=50% height=50%></img>
 
-Exhibit 3: Trend between Adventure Rank Level and no. of Achievements Days<br>
+Exhibit 3: Trend between No. of Achievements and no. of Active Days<br>
 <img src="/graphics/exhibit_3.jpg" width=50% height=50%></img>
 
-Exhibit 4: Trend between Adventure Rank Level and no. of Characters Days<br>
+Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 <img src="/graphics/exhibit_4.jpg" width=50% height=50%></img>
 
 |Data Fields          | Description                                                                                                 |
