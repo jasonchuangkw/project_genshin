@@ -139,7 +139,7 @@ You probably covered quite a lot of the easy content and probably has to face th
 
 The distinction between Juniors and Seniors, beside number of active days, Seniors just have everything more and done more than Juniors. Perhaps you have come to terms with some of the achievements which are rather painful (e.g. fishing and growing crops in the teapot), you have decided to finish it or give it up totally. There is proably no hurry to rush them through unless you really want those free primogems. You probably want to take your time to venture the remainding content, otherwise, you might end up like the Seniors with very little left to do.
 
-#### 4. Seniors - finding meaning to continue
+#### 4. Seniors - finding meaning to continue - what's next?
 
 Senior have been supporting the game and have played out most, if not all the content that is available. They are up to date with the latest content and hungry for me. Probably at some time, or already so, you might stop for a while or slow down, or perhaps find that friends whom have been playing the game no longer do so. There is probably a time when you might move on with the game and do something else. The main point is that you have enjoyed the game and have many happy moments, and if you continue to do so, may you have many more happy memories in the future. When there is free time, Seniors are excellent in helping others in challenging content. 
 
