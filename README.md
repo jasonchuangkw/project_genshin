@@ -35,7 +35,7 @@ For confidentiality, the UID in the data is replaced by a running ordered index 
 _______
 ### Exploratory Data Analysis
 
-From our exploratory data analysis, we picked up the interesting findings:
+From our exploratory data analysis, we picked up some interesting findings:
 
 If there would be one variable that seems to drive the prediction of other variable, then it would be the number of active days playing the game. The assumption is that if one plays the game more, the more likely it is to explore the maps, acquire more game characters and weapons. Exhibit 1 shows the distribution of Active Days. Although we did not achieved a good spread around 600-700 range, it did not have a significant impact on our further analysis using clustering analysis. Quite a lot of players have been playing over 800 days which means that they must have supported the game since launched. 
 
