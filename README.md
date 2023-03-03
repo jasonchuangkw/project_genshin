@@ -35,9 +35,13 @@ For confidentiality, the UID in the data is replaced by a running ordered index 
 _______
 ### Exploratory Data Analysis
 
+If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons.
+
+![This is an image](/graphics/exhibit_1.jpg)
+
 |Data Fields          | Description                                                                                                 |
 |---------------------|-------------------------------------------------------------------------------------------------------------|
-|days_active          | The no. of game achievements (Current Game Max  > 860)                                                      |
+|days_active          | The no. of active days playing the game (Current Game Max  > 860)                                           |
 |level                | The current adventure rank level of the player (Current Game Max = 60)                                      |
 |achievements         | The no. of game achievements (Current Game Max  = 890)                                                      |
 |characters           | The no. of characters  the player has Current Game Max  = 63)                                               |
@@ -67,7 +71,7 @@ As we can only collect the data in batches and not all at the same time, noted t
 _______
 ### Applied Clustering
 
-We avoided having categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified.
+As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified.
 _______
 ### Summary of Findings
 _______
