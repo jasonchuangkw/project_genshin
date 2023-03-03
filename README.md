@@ -58,7 +58,7 @@ Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
 
 For the complete list of variables, please refer to the Appendix below.
 _______
-### The Clusters - Freshman, Sophomore, Junior and Senior
+### Meet the Archetypes - Freshman, Sophomore, Junior and Senior
 
 As we do not have categorical data in our dataset, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression. 
 
@@ -70,33 +70,34 @@ Exhibit 6: Archetypes are failry distinctive based on Active Days<br>
 The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix below.
 
 
-|Variable             | Freshman  | Sophomore | Junior    | Senior    |
-|---------------------|:---------:|:---------:|:---------:|:---------:|
-|days_active          |  092-258  |  203-495  |  414-586  |  557-840  |
-|level                |   45-55   |   55-58   |   57-60   |   59-60   |
-|achievements         |  240-406  |  394-628  |  628-872  |  750-875  |
-|characters           |   26-36   |   34-46   |   42-50   |   45-54   |
-|total_5_characters   |    2-5    |    3-7    |    6-8    |    7-8    |
-|total_5_constellation|    0-1    |    0-3    |    1-5    |    1-9    |
-|total_5_weapon       |    0-1    |    0-3    |    1-4    |    2-5    | 
-|total_5_refinement   |    0-1    |    0-3    |    1-5    |    2-6    | 
-|total_explored       | 1890-3812 | 3596-6081 | 5781-6850 | 6577-6930 |
-|Oculi                |  168-355  |  332-542  |  492-613  |  562-613  |
-|common_chests        |  313-776  | 0732-1637 | 1555-2213 | 2074-2385 |
-|exquisite_chests     |  064-637  | 0582-1108 | 1129-1441 | 1472-1527 |
-|precious_chests      |  097-198  |  183-339  |  330-442  |  411-468  |
-|luxurious_chests     |   38-80   |  073-134  |  127-170  |  157-181  |
-|remarkable_chests    |   03-26   |   20-84   |   71-134  |  113-145  |
-|unlocked_waypoints   |  181-255  |  231-283  |  264-286  |  282-286  |
-|unlocked_domains     |   28-39   |   36-46   |   43-48   |   46-48   |
-|teapot_visitors      |    0-2    |    1-9    |    5-26   |   20-64   |
-|teapot_comfort       | 2940-5630 |10210-14990|20500-23510|30433-35425|
-|teapot_items         |  099-293  |  422-862  | 0841-1721 | 1833-3027 |
-|teapot_realm         |    1-1    |    2-4    |    4-5    |    5-5    |
-|abyss_score          |   00-24   |    0-32   |   24-36   |   24-36   |
+|Variables                             | Freshman  | Sophomore | Junior    | Senior    |
+|:-------------------------------------|:---------:|:---------:|:---------:|:---------:|
+|active days                           |  092-258  |  203-495  |  414-586  |  557-840  |
+|level                                 |   45-55   |   55-58   |   57-60   |   59-60   |
+|achievements                          |  240-406  |  394-628  |  628-872  |  750-875  |
+|characters                            |   26-36   |   34-46   |   42-50   |   45-54   |
+|5-star characters                     |    2-5    |    3-7    |    6-8    |    7-8    |
+|constellation among 5-star characters |    0-1    |    0-3    |    1-5    |    1-9    |
+|5-star weapons                        |    0-1    |    0-3    |    1-4    |    2-5    | 
+|refinement among 5-star weapons       |    0-1    |    0-3    |    1-5    |    2-6    | 
+|total exploration score               | 1890-3812 | 3596-6081 | 5781-6850 | 6577-6930 |
+|oculi                                 |  168-355  |  332-542  |  492-613  |  562-613  |
+|common chests                         |  313-776  | 0732-1637 | 1555-2213 | 2074-2385 |
+|exquisite chests                      |  064-637  | 0582-1108 | 1129-1441 | 1472-1527 |
+|precious chests                       |  097-198  |  183-339  |  330-442  |  411-468  |
+|luxurious chests                      |   38-80   |  073-134  |  127-170  |  157-181  |
+|remarkable chests                     |   03-26   |   20-84   |   71-134  |  113-145  |
+|unlocked waypoints                    |  181-255  |  231-283  |  264-286  |  282-286  |
+|unlocked domains                      |   28-39   |   36-46   |   43-48   |   46-48   |
+|teapot visitors                       |    0-2    |    1-9    |    5-26   |   20-64   |
+|teapot comfort score                  | 2940-5630 |10210-14990|20500-23510|30433-35425|
+|teapot items                          |  099-293  |  422-862  | 0841-1721 | 1833-3027 |
+|teapot realms                         |    1-1    |    2-4    |    4-5    |    5-5    |
+|abyss score                           |   00-24   |    0-32   |   24-36   |   24-36   |
 
 Note:<br>
 The abyss score is calculated based on the highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))  
+HoyoLab limits the showcase of maximum of 8 characters and 8 weapons, therefore the maximum no. of constellations and refinements are 48 and 40 respectively.
 _______
 ### Limitation of Study
 
@@ -128,40 +129,41 @@ _______
 ## Appendix
 ### File Management
 
-| Folder        | Description   |
-| ------------- | ------------- |
+| Folder        | Description                                                                                             |
+|:--------------|:--------------------------------------------------------------------------------------------------------|
 | codes         | Contains the python codes used in the analysis (1) data_collection.jpynb and (2) eda_and_analysis.jpynb |
-| data          | Contains the deidentified data used in this project |
-| data_setup    | Contains details on the data conversion from pydantic to dataframe |
-| presentatione | Contains the presentation slides for the project |
+| data          | Contains the deidentified data used in this project                                                     |
+| data_setup    | Contains details on the data conversion from pydantic to dataframe                                      |
+| presentation  | Contains the presentation slides for the project                                                        |
+| graphics      | Contains the chart jpg files in the README                                                              |
 
-### Data Fields
-|Data Fields          | Description                                                                                                 |
-|---------------------|-------------------------------------------------------------------------------------------------------------|
-|days_active          | The no. of active days playing the game (Current Game Max  > 860)                                           |
-|level                | The current adventure rank level of the player (Current Game Max = 60)                                      |
-|achievements         | The no. of game achievements (Current Game Max  = 890)                                                      |
-|characters           | The no. of characters  the player has Current Game Max  = 63)                                               |
-|total_5_characters   | The no. of 5-star characters showcased in the public profile (Data limitation Max = 8)                      |
-|total_5_constellation| The no. of constellations among 5-star characters showcased in the public profile (Data limitation Max = 48)|
-|total_5_weapon       | The no. of 5-star weapons showcased in the public profile (Data limitation Max = 8)                         |
-|total_5_refinement   | The no. of refinement among 5-star weapons showcased in the public profile (Data limitation Max = 40)       |
-|total_explored       | A combined exploration score of all the maps that were available (Current Game Max = 7,000)                 |
-|culi                 | The total no. of Oculi collected (e.g. Anemoculus) (Current Game Max = 613)                                 |
-|common_chests        | Total no. of common chests opened                                                                           |
-|exquisite_chests     | Total no. of exquisite chests opened                                                                        |
-|precious_chests      | Total no. of precious chests opened                                                                         |
-|luxurious_chests     | Total no. of luxurious chests opened                                                                        |
-|remarkable_chests    | Total no. of remakable chests opened                                                                        |
-|unlocked_waypoints   | Total no. of unlocked waypoints                                                                             |
-|unlocked_domains     | Total no. of unlocked domains                                                                               |
-|teapot_level         | Level of the Serenitea Pot(Current Game Max = 10)                                                           |
-|teapot_visitors      | Total no. of visitors received in Serenitea Pot                                                             |
-|teapot_comfort       | The highest comfort score of the Sernitea Pot among the available realms                                    |
-|teapot_items         | Total no. of items made in Serenitea Pot                                                                    |
-|teapot_realm         | Total no. of realm unlocked in Serenitea Pot (Current Game Max = 5)                                         |
-|abyss_score1         | The converted score based on th highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))         |
-|abyss_score2         | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
+### Dsecription of the Data Fields in the Dataset
+|Data Fields          | Description                                                                                             |
+|:--------------------|:--------------------------------------------------------------------------------------------------------|
+|days_active          | no. of active days playing the game (current game max  > 860)                                           |
+|level                | current adventure rank level of the player (current game max = 60)                                      |
+|achievements         | no. of game achievements (current game max  = 890)                                                      |
+|characters           | no. of characters the player has (current game max  = 63)                                               |
+|total_5_characters   | no. of 5-star characters showcased in the public profile (data limitation max = 8)                      |
+|total_5_constellation| no. of constellations among 5-star characters showcased in the public profile (data limitation max = 48)|
+|total_5_weapon       | no. of 5-star weapons showcased in the public profile (data limitation max = 8)                         |
+|total_5_refinement   | no. of refinement among 5-star weapons showcased in the public profile (data limitation max = 40)       |
+|total_explored       | combined total exploration score of all the maps that were available (current game max = 7,000)         |
+|culi                 | no. of oculi collected (e.g. anemoculus) (current game max = 613)                                       |
+|common_chests        | no. of common chests opened                                                                             |
+|exquisite_chests     | no. of exquisite chests opened                                                                          |
+|precious_chests      | no. of precious chests opened                                                                           |
+|luxurious_chests     | no. of luxurious chests opened                                                                          |
+|remarkable_chests    | no. of remakable chests opened                                                                          | 
+|unlocked_waypoints   | no. of unlocked waypoints                                                                               |
+|unlocked_domains     | no. of unlocked domains                                                                                 |
+|teapot_level         | level of the serenitea pot (current game max = 10)                                                      |
+|teapot_visitors      | total no. of visitors received in serenitea pot                                                         |
+|teapot_comfort       | highest comfort score of the sernitea pot among the available realms                                    |
+|teapot_items         | no. of items made in Serenitea Pot                                                                      |
+|teapot_realm         | no. of realm unlocked in Serenitea Pot (current game max = 5)                                           |
+|abyss_score1         | converted score based on th highlight level of spiral abyss reached (max = 36 (12 floor x 3 chambers))  |
+|abyss_score2         | converted score based on th highlight level of spiral abyss reached (max = 12 (floor 9-12 x 3 chambers))|
 
 Note:<br>
 As we can only collect the data in batches and not all at the same time, noted that active players would have new updated figures almost on a daily basis. teapot_level and abyss_score2 were not used in the clustering as they are closely related to other variables.
