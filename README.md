@@ -70,7 +70,7 @@ Exhibit 6: Archetypes are failry distinctive based on Active Days<br>
 The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix below.
 
 
-|Variable                              | Freshman  | Sophomore | Junior    | Senior    |
+|Variables                             | Freshman  | Sophomore | Junior    | Senior    |
 |:-------------------------------------|:---------:|:---------:|:---------:|:---------:|
 |active days                           |  092-258  |  203-495  |  414-586  |  557-840  |
 |level                                 |   45-55   |   55-58   |   57-60   |   59-60   |
@@ -129,7 +129,7 @@ _______
 ### File Management
 
 | Folder        | Description                                                                                             |
-|---------------|---------------------------------------------------------------------------------------------------------|
+|:--------------|:--------------------------------------------------------------------------------------------------------|
 | codes         | Contains the python codes used in the analysis (1) data_collection.jpynb and (2) eda_and_analysis.jpynb |
 | data          | Contains the deidentified data used in this project                                                     |
 | data_setup    | Contains details on the data conversion from pydantic to dataframe                                      |
@@ -137,7 +137,7 @@ _______
 
 ### Data Fields
 |Data Fields          | Description                                                                                             |
-|---------------------|---------------------------------------------------------------------------------------------------------|
+|:--------------------|:--------------------------------------------------------------------------------------------------------|
 |days_active          | no. of active days playing the game (current game max  > 860)                                           |
 |level                | current adventure rank level of the player (current game max = 60)                                      |
 |achievements         | no. of game achievements (current game max  = 890)                                                      |
