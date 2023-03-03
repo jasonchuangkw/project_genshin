@@ -55,5 +55,7 @@ We attempted to use random number generation
 
 | Folder        | Description   |
 | ------------- | ------------- |
+| codes         | Contains the python codes used in the analysis (1) data_collection.jpynb and (2) eda_ana_analysis.jpynb |
 | data          | Contains the deidentified data used in this project |
-| data_setup    | Content Cell  |
+| data_setup    | Content code conversion used to prepare the data |
+| presentatione | Contains the presentation slides for the project |
