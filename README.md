@@ -46,7 +46,7 @@ _______
 |total_5_weapon       | The no. of 5-star weapons showcased in the public profile (Data limitation Max = 8)                         |
 |total_5_refinement   | The no. of refinement among 5-star weapons showcased in the public profile (Data limitation Max = 40)       |
 |total_explored       | A combined exploration score of all the maps that were available (Current Game Max = 7,000)                 |
-|total_culi           | The total no. of Oculi collected (e.g. Anemoculus) (Current Game Max = 613)                                 |
+|culi                 | The total no. of Oculi collected (e.g. Anemoculus) (Current Game Max = 613)                                 |
 |common_chests        | Total no. of common chests opened                                                                           |
 |exquisite_chests     | Total no. of exquisite chests opened                                                                        |
 |precious_chests      | Total no. of precious chests opened                                                                         |
@@ -54,11 +54,16 @@ _______
 |remarkable_chests    | Total no. of remakable chests opened                                                                        |
 |unlocked_waypoints   | Total no. of unlocked waypoints                                                                             |
 |unlocked_domains     | Total no. of unlocked domains                                                                               |
-|teapot_level         | Level of the Serenitea Pot(Current Game Max = 10)                                                           |
+|teapot_level**       | Level of the Serenitea Pot(Current Game Max = 10)                                                           |
 |teapot_visitors      | Total no. of visitors received in Serenitea Pot                                                             |
-
+|teapot_comfort       | The highest comfort score of the Sernitea Pot among the available realms                                    |
+|teapot_items         | Total no. of items made in Serenitea Pot                                                                    |
+|teapot_realm         | Total no. of realm unlocked in Serenitea Pot (Current Game Max = 5)                                         |
+|abyss_score1         | The converted score based on th highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))         |
+|abyss_score2**       | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
 
 *as we are unable to collect all the data at the same time, therefore the maximum changes on the daily basis.
+** variable not used in the clustring analysis
 _______
 ### Applied Clustering
 
