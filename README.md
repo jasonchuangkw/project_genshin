@@ -92,7 +92,7 @@ The table below shows the inter-quatile range of the varirables according to eac
 |teapot visitors                       |    0-2    |    1-9    |    5-26   |   20-64   |
 |teapot comfort score                  | 2940-5630 |10210-14990|20500-23510|30433-35425|
 |teapot items                          |  099-293  |  422-862  | 0841-1721 | 1833-3027 |
-|teapot realm                          |    1-1    |    2-4    |    4-5    |    5-5    |
+|teapot realms                         |    1-1    |    2-4    |    4-5    |    5-5    |
 |abyss score                           |   00-24   |    0-32   |   24-36   |   24-36   |
 
 Note:<br>
