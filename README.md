@@ -35,8 +35,18 @@ For confidentiality, the UID in the data is replaced by a running ordered index 
 _______
 ### Exploratory Data Analysis
 
-| Key Data Fields | Description   |
-| level | The current adventure rank level of the player (Current Game Max = 60)|
+The current game maxiumum value of each field (at this point of the project) is provided.
+
+| Key Data Fields  | Description                                                                           |
+|---------------------|-----------------------------------------------------=-------------------------------------------------------|
+| days_active         | The no. of game achievements (Current Game Max  > 860*                                                      |
+| level               | The current adventure rank level of the player (Current Game Max = 60)                                      |
+| achievements        | The no. of game achievements (Current Game Max  = 890)                                                      |
+| characters          | The no. of characters  the player has Current Game Max  = 63)                                               |
+|total_5_characters   | The no. of 5-star characters showcased in the public profile (Data limitation Max = 8)                      |
+|total_5_constellation| The no. of constellations among 5-star characters showcased in the public profile (Data Limitation Max = 48)|
+
+*as we are unable to collect all the data at the same time, therefore the maximum changes on the daily basis.
 _______
 ### Applied Clustering
 
