@@ -133,8 +133,8 @@ _______
 | codes         | Contains the python codes used in the analysis (1) data_collection.jpynb and (2) eda_and_analysis.jpynb |
 | data          | Contains the deidentified data used in this project                                                     |
 | data_setup    | Contains details on the data conversion from pydantic to dataframe                                      |
-| presentatione | Contains the presentation slides for the project                                                        |
-| presentatione | Contains the presentation slides for the project                                                        |
+| presentation  | Contains the presentation slides for the project                                                        |
+| graphics      | Contains the chart jpg files in the README                                                              |
 
 ### Dsecription of the Data Fields in the Dataset
 |Data Fields          | Description                                                                                             |
