@@ -9,6 +9,7 @@ _______
 
 Determine what are the different archetypes based on public game data that could help the Genshin Impact plauyers know more about themselves and the community. Where possible, the findings could provide some suggestions or tips to gthe players based on the archetype they belong to.
 
+_______
 ### Background
 
 Gaming companies potentially have a lot of user data that can help them to understand their players better. One method is to adopt the marketing segmentation approach by having customised strategies for different archetypes. For games that are based on free-to-play (F2P) which have microtransactions for players to spend real money on game assets, it is quite typical to segment players based on their profitability. Games which have been around for a longer time might look at new gamers, lapsed gamers and existing active gamers. This project takes the perspective of gamers to identify different archetypes based publicly avaiable data, so that it will be useful to players to understand how involved they are in the game as compared to others.
@@ -24,8 +25,8 @@ It is interesting to note that the profile of Genshin Impact players is not limi
 - 7% of players play an average of 3-10 minutes per session, while 26% play for at least 10-30 minutes and 23% playing between 1 and 10 hours per day
 
 [(Source: udonis)](https://www.blog.udonis.co/mobile-marketing/mobile-games/genshin-impact-advertising#:~:text=Genshin%20Impact%20Demographics&text=The%20gender%20distribution%20is%20quite,the%20average%20age%20is%2035) 
-
-#### Data Source and Sampling
+_______
+### Data Source and Sampling
 
 HoYoLAB is the gaming community forum for HoYoverse games which registered users can make a selection of their user data public. To obtain these user data, we made use of [genshin.py](https://pypi.org/project/genshin), which was developed by Genshin Impact fans. A successful retrieval involved crossing two hurdles - (i) the player is a registered user in HoyLAB and (ii) has made the player data public. We have attempted to use random number generation to get user data but the success rate is very low (i.ei. <5%). We ended up looking into chat channels in popular Discord servers where  
 players can seek help from other players for game challenges. With this, we obtained a sample of xxxx User ID for the month of January 2023. The User ID collected is limited to players from Asia, North America (NA) and Europe (EU) servers.
