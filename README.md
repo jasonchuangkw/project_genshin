@@ -56,8 +56,7 @@ Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
 <img src="/graphics/exhibit_5.jpg" width=50% height=50%></img>
 
-Note:
-As we can only collect the data in batches and not all at the same time, noted that active players would have new updated figures almost on a daily basis. teapot_level and abyss_score2 were not used in the clustering as they are closely related to other variables.
+NFor the complete list of variables in the data, please refer to the Appendix below.
 _______
 ### Applied Clustering
 
@@ -109,3 +108,6 @@ _______
 |teapot_realm         | Total no. of realm unlocked in Serenitea Pot (Current Game Max = 5)                                         |
 |abyss_score1         | The converted score based on th highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))         |
 |abyss_score2         | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
+
+Note:
+As we can only collect the data in batches and not all at the same time, noted that active players would have new updated figures almost on a daily basis. teapot_level and abyss_score2 were not used in the clustering as they are closely related to other variables.
