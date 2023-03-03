@@ -63,32 +63,30 @@ _______
 As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression.
 
 
-|Variable             |Freshman|Sophomore|Junior |Senior |
-|---------------------|--------|---------|-------|-------|
-|days_active          |092-258 |203-495  |414-586|557-840|
-|level                |--------|---------|------|------|
-|achievements         |--------|---------|------|------|
-|characters           |--------|---------|------|------|
-|total_5_characters   |--------|---------|------|------|
-|total_5_constellation|--------|---------|------|------|
-|total_5_weapon       |--------|---------|------|------|
-|total_5_refinement   |--------|---------|------|------|
-|total_explored       |--------|---------|------|------|
-|culi                 |--------|---------|------|------|
-|common_chests        |--------|---------|------|------|
-|exquisite_chests     |--------|---------|------|------|
-|precious_chests      |--------|---------|------|------|
-|luxurious_chests     |--------|---------|------|------|
-|remarkable_chests    |--------|---------|------|------|
-|unlocked_waypoints   |--------|---------|------|------|
-|unlocked_domains     |--------|---------|------|------|
-|teapot_level         |--------|---------|------|------|
-|teapot_visitors      |--------|---------|------|------|
-|teapot_comfort       |--------|---------|------|------|
-|teapot_items         |--------|---------|------|------|
-|teapot_realm         |--------|---------|------|------|
-|abyss_score1         |--------|---------|------|------|
-|abyss_score2         |--------|---------|------|------|
+|Variable             | Freshman  | Sophomore | Junior    | Senior    |
+|---------------------|-----------|-----------|-----------|-----------|
+|days_active          |  092-258  |  203-495  |  414-586  |  557-840  |
+|level                |   45-55   |   55-58   |   57-60   |   59-60   |
+|achievements         |  240-406  |  394-628  |  628-872  |  750-875  |
+|characters           |   26-36   |   34-46   |   42-50   |   45-54   |
+|total_5_characters   |    2-5    |    3-7    |    6-8    |    7-8    |
+|total_5_constellation|    0-1    |    0-3    |    1-5    |    1-9    |
+|total_5_weapon       |    0-1    |    0-3    |    1-4    |    2-5    | 
+|total_5_refinement   |    0-1    |    0-3    |    1-5    |    2-6    | 
+|total_explored       | 1890-3812 | 3596-6081 | 5781-6850 | 6577-6930 |
+|Oculi                |  168-355  |  332-542  |  492-613  |  562-613  |
+|common_chests        |  313-776  |  732-1637 | 1555-2213 | 2074-2385 |
+|exquisite_chests     |   64-637  |  582-1108 | 1129-1441 | 1472-1527 |
+|precious_chests      |   97-198  |  183-339  |  330-442  |  411-468  |
+|luxurious_chests     |   38-80   |   73-134  |  127-170  |  157-181  |
+|remarkable_chests    |    3-26   |   20-84   |   71-134  |  113-145  |
+|unlocked_waypoints   |  181-255  |  231-283  |  264-286  |  282-286  |
+|unlocked_domains     |   28-39   |   36-46   |   43-48   |   46-48   |
+|teapot_visitors      |    0-2    |    1-9    |    5-26   |   20-64   |
+|teapot_comfort       | 2940-5630 |10210-14990|20500-23510|30433-35425|
+|teapot_items         |   99-293  |  422-862  |  841-1721 | 1833-3027 |
+|teapot_realm         |    1-1    |    2-4    |    4-5    |    5-5    |
+|abyss_score1         |    0-24   |    0-32   |   24-36   |   24-36   |
 
 _______
 ### Limitation of Study
