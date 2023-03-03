@@ -37,23 +37,23 @@ For confidentiality, the UID in the data is replaced by a running ordered index,
 
 ### Exploratory Data Analysis
 
-
+_______
 ### Applied Clustering
 
 Since the fields in the data are numerical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good resul, therefore the final model made use of K-Means clustering using a 4-cluster solution.
-
+_______
 ### Summary of Findings
-
+_______
 ### Limitation of Study
 
 On one hand, starting with the Discord Sample would ensure that we are gathering data from players who are currently active in the game, it is biased towards players who needs help or would like to help others. The low success rate adds further biaseness to the sample as there might be difference between players who made their data public and those who did not. While the resultant clusters seems logical and relatable, we are not confident that the sample is representative of Genshin Impact players, therefore the stated cluster size should be taken as indicative.
 
 We attempted to use random number generation 
 
-
+_______
 ### Conclusions and Recommendations
 
-
+_______
 ## Appendix
 ### File Management
 
