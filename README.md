@@ -47,7 +47,7 @@ _______
 
 On one hand, starting with the Discord Sample would ensure that we are gathering data from players who are currently active in the game, it is biased towards players who needs help or would like to help others. The low success rate adds further biaseness to the sample as there might be difference between players who made their data public and those who did not. While the resultant clusters seems logical and relatable, we are not confident that the sample is representative of Genshin Impact players, therefore the stated cluster size should be taken as indicative.
 
-We attempted to use random number generation 
+We attempted to use random number generation but the success rate is very low, therefore this method was abandoned.
 
 _______
 ### Conclusions and Recommendations
