@@ -8,7 +8,6 @@ _______
 ### Problem Statement
 
 Determine what are the different archetypes based on public game data that could help the Genshin Impact plauyers know more about themselves and the community. Where possible, the findings could provide some suggestions or tips to gthe players based on the archetype they belong to.
-
 _______
 ### Background
 
@@ -34,9 +33,9 @@ players can seek help from other players for game challenges. With this, we obta
 Parsing the Discord Sample of User ID into genshin.py, we collected 1,203 user data over a period from January to mid-Feburary with a success rate of 14-16% by server. Using one-way Anova test, we did not observe any significant difference in the user data by servers.
 
 For confidentiality, the UID in the data is replaced by a running ordered index, therefore is deidentified from the users.
-
+_______
 ### Exploratory Data Analysis
-
+TBA
 _______
 ### Applied Clustering
 
