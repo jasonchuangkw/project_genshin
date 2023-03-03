@@ -62,6 +62,7 @@ _______
 
 As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression.
 
+
 |Variable             |Freshman|Sophomore|Junior|Senior|
 |---------------------|--------|---------|------|------|
 |days_active          |--------|---------|------|------|
@@ -96,11 +97,13 @@ On one hand, starting with the Discord Sample would ensure that we are gathering
 _______
 ### Conclusions and Recommendations
 
+Anecdotally, we know that it is not uncommon for gamers to have more than one game account such that these accounts could be classified into different archetypes. We assume that this is the minority in making our recommendations.
+
 ##### 1. Freshman - you need not be alone
 
-While Genshin Impact is not a highly complex game, but there are many useful tips that freshmen can picked up through social media. Many started out watching Youtube or Twitch streamers or read online articles to pick up useful tips. One thing about Genshin Impact is that you could play this game entirely alone, therefore there isn't much an immediate pressure to establish friendship with other gamers. However, there are quite a few tough challenges that might be easier if you pair up with an experience gamers. It is much easier to get help from Discord servers and you might just find new friends there too.
+While Genshin Impact is not a highly complex game, but there are many useful tips that freshmen can picked up through social media. Many started out watching Youtube or Twitch streamers or read online articles to pick up useful tips. One thing about Genshin Impact is that you could play this game entirely alone, therefore there isn't much an immediate pressure to establish friendship with other gamers. However, there are quite a few tough and challenging content that might be easier if you pair up with experience gamers. It is much easier to get help from Discord servers and you might just find new friends there too.
 
-##### 2. 
+##### 2. Sophomore - get organised
 
 
 ##### 3. Juniors - 
