@@ -101,7 +101,7 @@ Anecdotally, we know that it is not uncommon for gamers to have more than one ga
 
 ##### 1. Freshman - you need not be alone
 
-While Genshin Impact is not a highly complex game, but there are many useful tips that freshmen can picked up through social media. Many started out watching Youtube or Twitch streamers or read online articles to pick up useful tips. One thing about Genshin Impact is that you could play this game entirely alone, therefore there isn't much an immediate pressure to establish friendship with other gamers. However, there are quite a few tough and challenging content that might be easier if you pair up with experience gamers. It is much easier to get help from Discord servers and you might just find new friends there too.
+While Genshin Impact is not a complicated game, there are many useful tips that freshmen can pick up through social media and friends. Many started out watching Youtube or Twitch streamers or read online articles to pick up useful tips. One thing about Genshin Impact is that you could play this game entirely alone, therefore there isn't much pressure to know more people in order to progress in game. However, there are quite a few challenging content that might be easier if you pair up with experience gamers.
 
 ##### 2. Sophomore - get organised
 
@@ -109,7 +109,9 @@ While Genshin Impact is not a highly complex game, but there are many useful tip
 ##### 3. Juniors - 
 
 
-##### 4. Seniors - finding meaning to stay on
+##### 4. Seniors - finding meaning to continue
+
+Senior have been supporting the game and have played out most, if not all the content that is available. They are up to date with the latest content and hungry for me. Probably at some time, or already so, you might stop for a while or slow down, or perhaps find that friends whom have been playing the game no longer do so. There is probably a time when you might move on with the game and do something else. The main point is that you have enjoyed the game and have many happy moments, and if you continue to do so, may you have many more happy memories in the future. When there is free time, Seniors are excellent in helping others in challenging content. 
 
 _______
 ## Appendix
