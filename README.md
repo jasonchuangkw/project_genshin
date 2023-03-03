@@ -63,7 +63,7 @@ _______
 As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression. 
 
 
-Exhibit 6<br>
+Exhibit 6: Archetypes are failry distinctive based on Active Days<br>
 <img src="/graphics/exhibit_6.jpg" width=50% height=50%></img>
 
 The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix below.
