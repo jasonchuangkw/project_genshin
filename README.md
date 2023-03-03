@@ -37,7 +37,7 @@ _______
 
 If there would be one variable that might predict the other variable, it would be the number of active days in the game. The assumption is that if one plays the game longer, is more likely to complete more exploration and get more game characters and weapons.
 
-![This is an image](/graphics/exhibit_1.jpg)
+![This is an image](/../graphics/exhibit_1.jpg)
 
 |Data Fields          | Description                                                                                                 |
 |---------------------|-------------------------------------------------------------------------------------------------------------|
