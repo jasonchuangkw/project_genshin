@@ -96,6 +96,18 @@ On one hand, starting with the Discord Sample would ensure that we are gathering
 _______
 ### Conclusions and Recommendations
 
+##### 1. Freshman - you need not be alone
+
+While Genshin Impact is not a highly complex game, but there are many useful tips that freshmen can picked up through social media. Many started out watching Youtube or Twitch streamers or read online articles to pick up useful tips. One thing about Genshin Impact is that you could play this game entirely alone, therefore there isn't much an immediate pressure to establish friendship with other gamers. However, there are quite a few tough challenges that might be easier if you pair up with an experience gamers. It is much easier to get help from Discord servers and you might just find new friends there too.
+
+##### 2. 
+
+
+##### 3. Juniors - 
+
+
+##### 4. Seniors - finding meaning to stay on
+
 _______
 ## Appendix
 ### File Management
