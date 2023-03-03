@@ -56,11 +56,11 @@ Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
 <img src="/graphics/exhibit_5.jpg" width=50% height=50%></img>
 
-For the complete list of variables in the data, please refer to the Appendix below.
+For the complete list of variables, please refer to the Appendix below.
 _______
 ### The Clusters - Freshman, Sophomore, Junior and Senior
 
-As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression. The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix.
+As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified. We named the clusters as Freshman, Sophomore, Junior and Senior, after realising that the findings seems to suggest 4 stages of progression. The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix below.
 
 
 |Variable             | Freshman  | Sophomore | Junior    | Senior    |
@@ -97,17 +97,19 @@ On one hand, starting with the Discord Sample would ensure that we are gathering
 _______
 ### Conclusions and Recommendations
 
-Anecdotally, we know that it is not uncommon for gamers to have more than one game account such that these accounts could be classified into different archetypes. We assume that this is the minority in making our recommendations.
+Anecdotally, we know that it is not uncommon for gamers to have more than one game account and the secondary accounts may fit into a different archetypes. While making our recommendations for each archtypes, we ocused on gamers with a single account.
 
 ##### 1. Freshman - you need not be alone
 
 While Genshin Impact is not a complicated game, there are many useful tips that freshmen can pick up through social media and friends. Many started out watching Youtube or Twitch streamers or read online articles to pick up useful tips. One thing about Genshin Impact is that you could play this game entirely alone, therefore there isn't much pressure to know more people in order to progress in game. However, there are quite a few challenging content that might be easier if you pair up with experience gamers.
 
-##### 2. Sophomore - get organised
+##### 2. Sophomore - becoming more sophisticated 
 
+You probably covered quite a lot of the easy content and probably has to face the tougher ones. This is the stage when you start to develop deeper understanding of the game mechanism, such as choosing artifacts and planning team composition. There is a lot of useful information resources that can help you but don't be shy to ask people for advice. Sometimes, it is better to learn from friends than online resources. In some discord servers, there might be specific channel that provide help to gamers. If you have not ventured into Spiral Abyss, it may be worthwhile to try it out. It takes a while to move up the floors, so don't be disappointed if you cannot clear everything in one go. 
 
-##### 3. Juniors - 
+##### 3. Juniors - move at your own pace
 
+The distinction between Juniors and Seniors, beside number of active days, Seniors just have everything more and done more than Juniors. Perhaps you have come to terms with some of the achievements which are rather painful (e.g. fishing and growing crops in the teapot), you have decided to finish it or give it up totally. There is proably no hurry to rush them through unless you really want those free primogems. You probably want to take your time to venture the remainding content, otherwise, you might end up like the Seniors with very little left to do.
 
 ##### 4. Seniors - finding meaning to continue
 
