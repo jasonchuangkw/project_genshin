@@ -31,7 +31,7 @@ _______
 HoYoLAB is the gaming community forum for HoYoverse games which registered users can make a selection of their user data public. To obtain these user data, we made use of [genshin.py](https://pypi.org/project/genshin), which was developed by Genshin Impact fans. A successful retrieval involved crossing two hurdles - (i) the player is a registered user in HoyLAB and (ii) has made the player data public. We have attempted to use random number generation to get user data but the success rate is very low (i.ei. <5%). We ended up looking into chat channels in popular Discord servers where  
 players can seek help from other players for game challenges. With this, we obtained a sample of xxxx User ID for the month of January 2023. The User ID collected is limited to players from Asia, North America (NA) and Europe (EU) servers.
 
-Parsing the Discord Sample of User ID into genshin.py, we collected XXXX data over a period from January to mid-Feburary with a success rate of 14-16% by server. Using one-way Anova test, we did not observe any significant difference in the user data by servers.
+Parsing the Discord Sample of User ID into genshin.py, we collected 1,203 user data over a period from January to mid-Feburary with a success rate of 14-16% by server. Using one-way Anova test, we did not observe any significant difference in the user data by servers.
 
 For confidentiality, the UID in the data is replaced by a running ordered index, therefore is deidentified from the users.
 
