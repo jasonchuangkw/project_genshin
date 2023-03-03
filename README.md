@@ -86,8 +86,10 @@ As we have avoided categorical data, therefore we could use one of the two popul
 |teapot_comfort       | 2940-5630 |10210-14990|20500-23510|30433-35425|
 |teapot_items         |  099-293  |  422-862  | 0841-1721 | 1833-3027 |
 |teapot_realm         |    1-1    |    2-4    |    4-5    |    5-5    |
-|abyss_score1         |   00-24   |    0-32   |   24-36   |   24-36   |
+|abyss_score          |   00-24   |    0-32   |   24-36   |   24-36   |
 
+Note:
+The abyss score is calculated based on the highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))  
 _______
 ### Limitation of Study
 
