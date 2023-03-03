@@ -53,7 +53,7 @@ We attempted to use random number generation
 
 ### File Management
 
-| First Header  | Second Header |
+| Folder        | Description   |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| data          | Contains the deidentified data used in this project |
+| data_setup    | Content Cell  |
