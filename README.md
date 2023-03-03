@@ -33,7 +33,7 @@ players can seek help from other players for game challenges. With this, we obta
 
 Parsing the Discord Sample of User ID into genshin.py, we collected XXXX data over a period from January to mid-Feburary with a success rate of 14-16% by server. Using one-way Anova test, we did not observe any significant difference in the user data by servers.
 
-For confidentiality, the final data does not contain any User ID.
+For confidentiality, the UID in the data is replaced by a running ordered index, therefore is deidentified from the users.
 
 ### Exploratory Data Analysis
 
