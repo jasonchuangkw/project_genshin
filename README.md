@@ -37,8 +37,8 @@ _______
 
 The current game maxiumum value of each field (at this point of the project) is provided.
 
-| Key Data Fields  | Description                                                                           |
-|---------------------|-----------------------------------------------------=-------------------------------------------------------|
+| Key Data Fields     | Description                                                                                                 |
+|---------------------|-------------------------------------------------------------------------------------------------------------|
 | days_active         | The no. of game achievements (Current Game Max  > 860*                                                      |
 | level               | The current adventure rank level of the player (Current Game Max = 60)                                      |
 | achievements        | The no. of game achievements (Current Game Max  = 890)                                                      |
