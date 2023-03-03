@@ -2,7 +2,7 @@
 
 ### Executive Summary
 
-Using publicly avaiable game data among a sample of Genshin Impact Players, we obtained a four distinctive archetypes which their differences were largely driven by the number of active days in the game. From other variables, such as number of in-game achievements, number of characters and level of exploration, we were able to identify different levels of intensity for various in-game activities. With that, we named the four archetypes after the student classification names for the four undergraduate years - Freshman, Sophomore, Junior and Senior. For players who are able to relate to the archetypes, we have put forth some recommendations for them.
+Using publicly avaiable game data among a sample of Genshin Impact players, we obtained a four distinctive archetypes which their differences were largely driven by the number of active days in the game. From other variables, such as number of in-game achievements, number of characters and level of exploration, we were able to identify different levels of intensity for various in-game activities. With that, we named the four archetypes after the student classification names for the four undergraduate years - Freshman, Sophomore, Junior and Senior. For players who are able to relate to the archetypes, we have put forth some recommendations for them.
 
 _______
 ### Problem Statement
