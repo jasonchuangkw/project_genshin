@@ -1,4 +1,4 @@
-## Applied Clustering to Genshin Impact Data to Identify Archetypes
+## Identify Archetypes among Genshin Impact Players
 
 ### Executive Summary
 
