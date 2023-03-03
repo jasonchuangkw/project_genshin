@@ -56,7 +56,33 @@ Exhibit 4: Trend between No. of Characters and no. of Active Days<br>
 Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
 <img src="/graphics/exhibit_5.jpg" width=50% height=50%></img>
 
+Note:
+As we can only collect the data in batches and not all at the same time, noted that active players would have new updated figures almost on a daily basis. teapot_level and abyss_score2 were not used in the clustering as they are closely related to other variables.
+_______
+### Applied Clustering
 
+As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified.
+_______
+### Summary of Findings
+_______
+### Limitation of Study
+
+On one hand, starting with the Discord Sample would ensure that we are gathering data from players who are currently active in the game, it is biased towards players who needs help or would like to help others. The low success rate adds further biaseness to the sample as there might be difference between players who made their data public and those who did not. While the resultant clusters seems logical and relatable, we are not confident that the sample is representative of Genshin Impact players, therefore the stated cluster size should be taken as indicative.
+_______
+### Conclusions and Recommendations
+
+_______
+## Appendix
+### File Management
+
+| Folder        | Description   |
+| ------------- | ------------- |
+| codes         | Contains the python codes used in the analysis (1) data_collection.jpynb and (2) eda_and_analysis.jpynb |
+| data          | Contains the deidentified data used in this project |
+| data_setup    | Contains details on the data conversion from pydantic to dataframe |
+| presentatione | Contains the presentation slides for the project |
+
+### Data Fields
 |Data Fields          | Description                                                                                                 |
 |---------------------|-------------------------------------------------------------------------------------------------------------|
 |days_active          | The no. of active days playing the game (Current Game Max  > 860)                                           |
@@ -83,29 +109,3 @@ Exhibit 5: Trend between Spiral Abyss and no. of Active Days<br>
 |teapot_realm         | Total no. of realm unlocked in Serenitea Pot (Current Game Max = 5)                                         |
 |abyss_score1         | The converted score based on th highlight level of Abyss Reached (Max = 36 (12 floor x 3 chambers))         |
 |abyss_score2         | The converted score based on th highlight level of Abyss Reached (Max = 12 (floor 9-12 x 3 chambers))       |
-
-Note:
-As we can only collect the data in batches and not all at the same time, noted that active players would have new updated figures almost on a daily basis. teapot_level and abyss_score2 were not used in the clustering as they are closely related to other variables.
-_______
-### Applied Clustering
-
-As we have avoided categorical data, therefore we could use one of the two popular methods, K-Means and Hierachical Clustering, to obtain the archetypes. The Hierachical Clustering did not produce a good result, therefore the K-Means clustering result was used instead. A 4-cluster solution was identified.
-_______
-### Summary of Findings
-_______
-### Limitation of Study
-
-On one hand, starting with the Discord Sample would ensure that we are gathering data from players who are currently active in the game, it is biased towards players who needs help or would like to help others. The low success rate adds further biaseness to the sample as there might be difference between players who made their data public and those who did not. While the resultant clusters seems logical and relatable, we are not confident that the sample is representative of Genshin Impact players, therefore the stated cluster size should be taken as indicative.
-_______
-### Conclusions and Recommendations
-
-_______
-## Appendix
-### File Management
-
-| Folder        | Description   |
-| ------------- | ------------- |
-| codes         | Contains the python codes used in the analysis (1) data_collection.jpynb and (2) eda_and_analysis.jpynb |
-| data          | Contains the deidentified data used in this project |
-| data_setup    | Contains details on the data conversion from pydantic to dataframe |
-| presentatione | Contains the presentation slides for the project |
