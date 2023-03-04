@@ -155,7 +155,7 @@ _______
 | presentation  | Contains the presentation slides for the project                                                        |
 | graphics      | Contains the chart jpg files in the README                                                              |
 
-### Dsecription of the Data Fields in the Dataset
+### Dsecription of Data Fields in the Dataset
 |Data Fields          | Description                                                                                             |
 |:--------------------|:--------------------------------------------------------------------------------------------------------|
 |days_active          | no. of active days playing the game (current game max  > 860)                                           |
