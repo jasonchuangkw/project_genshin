@@ -85,7 +85,7 @@ Exhibit 8: Archetypes are failry distinctive based on Active Days<br>
 
 The table below shows the inter-quatile range of the varirables according to each cluster. For the description of each variable, please refer to the Appendix below.
 
-
+As of Jan 2023
 |Variables                             | Freshman  | Sophomore | Junior    | Senior    |
 |:-------------------------------------|:---------:|:---------:|:---------:|:---------:|
 |active days                           |  092-258  |  203-495  |  414-586  |  557-840  |
